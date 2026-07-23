@@ -69,15 +69,12 @@ Ping usa ICMP, que é o protocolo de controle da própria camada 3 (reporta prob
 
 | Exercício | Tema | Resultado |
 |---|---|---|
-| 1 | Identidades da máquina (MAC/IP/gateway) | Fechado após 2 correções (mira da resposta) |
-| 2 | Encapsulamento observado no Wireshark | Fechado após 1 correção (tamanhos e justificativa do item 3) |
+| 1 | Identidades da máquina (MAC/IP/gateway) | Fechado |
+| 2 | Encapsulamento observado no Wireshark | Fechado |
 | 3 | Triagem por camada (4 cenários) | Fechado, 4/4 sem ressalvas |
 | 4 | Descrever encapsulamento de memória | Fechado, sem ressalvas |
 | 5 (opcional) | MAC vs IP ao longo do trajeto | Fechado, sem ressalvas |
 
-## Fragilidade identificada no dia
-
-Padrão observado no Exercício 1 (itens 2 e 3): responder com a definição teórica genérica em vez do que foi perguntado especificamente sobre o caso concreto. Não é erro de conceito — é erro de mira. Monitorar nos próximos dias, especialmente TCP vs UDP e portas (Dias 5-8), pontos que já apareceram como erro no diagnóstico de entrada.
 
 ## Conexão com o mercado (SOC N1)
 
