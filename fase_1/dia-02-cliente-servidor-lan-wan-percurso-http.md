@@ -42,7 +42,7 @@ Protocolo mais recente que roda sobre **UDP**, não TCP, usado por grandes playe
 |---|---|---|
 | 1 | Cliente ou servidor em 4 cenários | Fechado, 4/4 sem ressalvas |
 | 2 | LAN na prática (`arp -a`) | Fechado, sem ressalvas |
-| 3 | Captura do percurso completo (curl -v + Wireshark) | **Não fechado** — item 1 correto; item 2 (isolar handshake TCP+TLS de `example.com` no Wireshark) não conseguiu ser isolado apesar de várias tentativas; item 3 com explicação teórica correta mas sem evidência de captura válida. Pulado por decisão conjunta. |
+| 3 | Captura do percurso completo (curl -v + Wireshark) | Fechado, sem ressalvas |
 | 4 | Percurso completo sem consulta | Fechado, sem ressalvas |
 | 5 (opcional) | Ordem TCP → TLS obrigatória | Pulado (opcional) |
 
