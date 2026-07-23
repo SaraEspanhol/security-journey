@@ -46,11 +46,6 @@ Protocolo mais recente que roda sobre **UDP**, não TCP, usado por grandes playe
 | 4 | Percurso completo sem consulta | Fechado, sem ressalvas |
 | 5 (opcional) | Ordem TCP → TLS obrigatória | Pulado (opcional) |
 
-## Pendência registrada — Fragilidade persistente da Fase 1
-
-**Habilidade de isolar um fluxo (`tcp.stream`) específico numa captura Wireshark com tráfego de fundo real.** Não é falha conceitual — a teoria do percurso (DNS→TCP→TLS→HTTP) foi corretamente descrita e defendida (Exercícios 1 e 4 sem ressalvas). É falta de prática mecânica com filtros de captura em ambiente ruidoso (múltiplas conexões simultâneas, QUIC, tráfego de sistema/Apple competindo).
-
-Relevância futura: essa é a mesma habilidade central de "isolar o sinal relevante dentro do ruído" que será exigida com força na Fase 3 (análise de logs) e na Fase 7 (SIEM/Wazuh, triagem de alertas). Retomar com exercício dedicado, em ambiente mais controlado, antes ou durante a Fase 3.
 
 ## Conexão com o mercado (SOC N1)
 
